@@ -4,8 +4,8 @@
         <xpath>*/ThingDef[defName="GunComplex" or defName="RocketComplex"]</xpath>
         <value>
             <li Class="TurretExtensions.TurretFrameworkExtension">
-                <useMannerShootingAccuracy>true</useMannerShootingAccuracy>
-                <useMannerAimingDelayFactor>true</useMannerAimingDelayFactor>
+                <useManningPawnShootingAccuracy>true</useManningPawnShootingAccuracy>
+                <useManningPawnAimingDelayFactor>true</useManningPawnAimingDelayFactor>
             </li>
         </value>
     </Operation>
@@ -49,7 +49,8 @@
                 <statFactors>
                     <MaxHitPoints>1.5</MaxHitPoints>
                 </statFactors>
-                <barrelDurabilityFactor>1.5</barrelDurabilityFactor>
+                <fuelCapacityFactor>1.5</fuelCapacityFactor>
+                <fuelMultiplierFactor>1.5</fuelMultiplierFactor>
                 <turretBurstCooldownTimeFactor>0.75</turretBurstCooldownTimeFactor>
             </li>
         </value>
@@ -78,7 +79,8 @@
                 <statFactors>
                     <MaxHitPoints>1.5</MaxHitPoints>
                 </statFactors>
-                <barrelDurabilityFactor>1.5</barrelDurabilityFactor>
+                <fuelCapacityFactor>1.5</fuelCapacityFactor>
+                <fuelMultiplierFactor>1.5</fuelMultiplierFactor>
                 <turretBurstCooldownTimeFactor>0.75</turretBurstCooldownTimeFactor>
             </li>
         </value>
@@ -112,7 +114,8 @@
                     <MaxHitPoints>1.5</MaxHitPoints>
                 </statFactors>
                 <basePowerConsumptionFactor>1.5</basePowerConsumptionFactor>
-                <barrelDurabilityFactor>1.25</barrelDurabilityFactor>
+                <fuelCapacityFactor>1.25</fuelCapacityFactor>
+                <fuelMultiplierFactor>1.25</fuelMultiplierFactor>
                 <canForceAttack>true</canForceAttack>
             </li>
         </value>
@@ -141,7 +144,8 @@
                     <ShootingAccuracyTurret>0.01</ShootingAccuracyTurret>
                 </statOffsets>
                 <basePowerConsumptionFactor>1.5</basePowerConsumptionFactor>
-                <barrelDurabilityFactor>1.25</barrelDurabilityFactor>
+                <fuelCapacityFactor>1.25</fuelCapacityFactor>
+                <fuelMultiplierFactor>1.25</fuelMultiplierFactor>
             </li>
         </value>
     </Operation>
@@ -229,7 +233,8 @@
                     <ShootingAccuracyTurret>0.03</ShootingAccuracyTurret>
                 </statOffsets>
                 <basePowerConsumptionFactor>2</basePowerConsumptionFactor>
-                <barrelDurabilityFactor>1.2</barrelDurabilityFactor>
+                <fuelCapacityFactor>1.2</fuelCapacityFactor>
+                <fuelMultiplierFactor>1.2</fuelMultiplierFactor>
                 <turretBurstCooldownTimeFactor>2</turretBurstCooldownTimeFactor>
                 <canForceAttack>true</canForceAttack>
             </li>
@@ -261,7 +266,8 @@
                     <ShootingAccuracyTurret>0.03</ShootingAccuracyTurret>
                 </statOffsets>
                 <basePowerConsumptionFactor>2</basePowerConsumptionFactor>
-                <barrelDurabilityFactor>1.2</barrelDurabilityFactor>
+                <fuelCapacityFactor>1.2</fuelCapacityFactor>
+                <fuelMultiplierFactor>1.2</fuelMultiplierFactor>
                 <turretBurstCooldownTimeFactor>2</turretBurstCooldownTimeFactor>
             </li>
         </value>
@@ -293,7 +299,8 @@
                     <MaxHitPoints>2</MaxHitPoints>
                 </statFactors>
                 <turretGunDef>Gun_BlastChargeUpgraded</turretGunDef>
-                <barrelDurabilityFactor>2</barrelDurabilityFactor>
+                <fuelCapacityFactor>2</fuelCapacityFactor>
+                <fuelMultiplierFactor>2</fuelMultiplierFactor>
                 <basePowerConsumptionFactor>1.5</basePowerConsumptionFactor>
                 <turretBurstCooldownTimeFactor>1.5</turretBurstCooldownTimeFactor>
             </li>
@@ -325,7 +332,8 @@
                     <MaxHitPoints>2</MaxHitPoints>
                 </statFactors>
                 <turretGunDef>Gun_BlastChargeMannedUpgraded</turretGunDef>
-                <barrelDurabilityFactor>2</barrelDurabilityFactor>
+                <fuelCapacityFactor>2</fuelCapacityFactor>
+                <fuelMultiplierFactor>2</fuelMultiplierFactor>
                 <basePowerConsumptionFactor>1.5</basePowerConsumptionFactor>
                 <turretBurstCooldownTimeFactor>1.5</turretBurstCooldownTimeFactor>
             </li>
